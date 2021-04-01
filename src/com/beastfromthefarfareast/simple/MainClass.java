@@ -26,6 +26,7 @@ public class MainClass {
 		student.addGrade(s, 4);
 		student.addGrade(s, 5);
 		
+		System.out.println("size of grades: " + student.gradesSize());
 		System.out.println("following grades: " + student.getSubjectGradesByName("Computer Science"));
 		System.out.println("gives avg: " + student.getGradesAvarage(s));
 

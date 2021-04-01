@@ -48,6 +48,10 @@ public class Student {
 		grades.put(s, new ArrayList<Integer>());
 	}
 	
+	public int gradesSize() {
+		return grades.size();
+	}
+	
 	float getGradesAvarage(SchoolSubject s) {
 		int sum = 0;
 		for (int grade : grades.get(s)) {
